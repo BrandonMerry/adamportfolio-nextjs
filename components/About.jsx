@@ -5,29 +5,50 @@ import Link from 'next/link';
 
 const About = () => {
   return (
-    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
+    <div
+      id="about"
+      className="w-full md:h-screen p-2 flex items-center py-16 px-6"
+    >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#145f9f]">
-            About
+            About Me
           </p>
-          <h2 className="py-4">Who I Am</h2>
+
           <p className="py-2 text-gray-600">
-            ---- About Me ----- + technolgogies you know
+            I’m a former Caseworker, ESL Teacher, and global nomad looking to
+            help people and companies solve complex and dynamic problems.
+            Between my soft skills from working in the humanities and traveling
+            to my technical skills in IT, programming, and networking there
+            isn’t a problem I can’t solve!!
           </p>
-          <p className="py-2 text-gray-600">-- Previous work done.---</p>
+          <div className="flex flex-col">
+            <h4 className="py-2 text-gray-600 ">Previous Work</h4>
+            <span className="py-1">
+              Systems Design Engineer Intern - T-Mobile
+            </span>
+            <span className="py-1">
+              IT Specialist - Chicago-Malcolm X College
+            </span>
+            <span className="py-1">
+              Course Online Technician/ IT Support - DePaul University
+            </span>
+            <span className="py-1">
+              Software Development Intern - STRUT Learning
+            </span>
+          </div>
           <div class="block py-4">
             <span class="text-xs font-semibold inline-block py-1 px-2 rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-              List
+              AWS Practitioner
             </span>
             <span class="text-xs font-semibold inline-block py-1 px-2 rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-              Skils
+              Comptia Network+
             </span>
             <span class="text-xs font-semibold inline-block py-1 px-2 rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-              Certs
+              Comptia Security+
             </span>
             <span class="text-xs font-semibold inline-block py-1 px-2 rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-              Here
+              CCNA
             </span>
           </div>
           <Link href="/#projects">
