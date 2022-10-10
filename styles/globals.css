@@ -36,6 +36,6 @@ html {
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#145f9f] to-[#145FD6]  text-white;
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase;
   }
 }
