@@ -54,16 +54,10 @@ const Navbar = () => {
           : 'fixed w-full h-20 z-[100]'
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className="flex justify-between items-center w-full h-full px-4 2xl:px-16">
         <Link href="/">
           <a>
-            {/* <Image
-              src={NavLogo}
-              alt="/"
-              width="125"
-              height="50"
-              className="cursor-pointer"
-            /> */}
+            <h2>Adam Sadowski</h2>
           </a>
         </Link>
         <div>
@@ -117,7 +111,7 @@ const Navbar = () => {
             <div className="flex w-full items-center justify-between">
               <Link href="/">
                 <a>
-                  {/* <Image src={NavLogo} width="87" height="35" alt="/" /> */}
+                  <h2>Adam Sadowski</h2>
                 </a>
               </Link>
               <div
@@ -129,7 +123,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90%] py-4">
-                Let&#39;s build something legendary together
+                Let&#39;s build something together
               </p>
             </div>
           </div>
